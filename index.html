@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>descriptador</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__criptografar">
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1>Criptografar texto</h1>
+                    <p class="texto__paragrafo">Veja a mágica acontecer</p>
+                </div>
+                <textarea class="container__input" placeholder="Insira o texto para criptografar"></textarea>
+                <p class="texto__paragrafo">Chave de criptografia:</p>
+                <span class="chave-criptografia"></span>
+
+                <div class="criptografar container__botoes">
+                    <button class="container__botao">Criptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__descriptografar">
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1>Descriptografar texto</h1>
+                    <p class="texto__paragrafo">Veja a mágica acontecer</p>
+                </div>
+                <textarea class="container__input" placeholder="Insira o texto para descriptografar"></textarea>
+                <p class="texto__paragrafo">Chave de criptografia:</p>
+                <input class="container__chave-descriptografia" type="text" placeholder="Insira a chave de criptografia">
+                <div class="descriptografar container__botoes">
+                    <button class="container__botao">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__output">
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1>copiar texto</h1>
+                    <p class="texto__paragrafo">copie o texto</p>
+                    <textarea class="container__output-text" readonly></textarea>
+                    <button class="container__botao">Copiar Texto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js" defer></script>
+</body>
+
+</html>
